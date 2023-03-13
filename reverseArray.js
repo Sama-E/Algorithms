@@ -1,3 +1,5 @@
+//Reverse order of string elements in an array  
+
 function reverse(arr){
     var rev = [];
     //Empty array

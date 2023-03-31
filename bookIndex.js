@@ -25,19 +25,29 @@ const expected3 = "1-3, 7, 9, 15-17";
  */
 
 function bookIndex(num) {
+	//var empty array
 	var temp = [];
+	//For Loop: Iterate through indexes of num array
 	for (var i = 0; i < num.length; i++) {
+		//If element of index + 1 equals element of the next index 
 		if (num[i]+1 == num[i+1]) {
+			//Var start equal index 
 			var start = num[i];
+			//While element of index + 1 equals element of the next index 
 			while (num[i]+1 == num[i+1]) {
+				//Add 1 to index and move to next index
 				i++;
 			}
+		//Var end equal index
 		var end = num[i];
+		//Push element to temp array var start + dash + var end
 		temp.push(start + "-" + end);
 		} else {
+			//Else push element 
 			temp.push(num[i]);
 		}
 	}
+	//Var newstring joins temp array with standalone elements spaced with commas
 	var newstring = temp.join(',');
 	return newstring
 }

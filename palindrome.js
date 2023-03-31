@@ -25,33 +25,25 @@
    * @param {string} str
    * @returns {boolean} Whether the given str is a palindrome or not.
    */
-/*
-function palindrome(str) {
-    var re = /[^A-Za-z0-9]/g;
-    str = str.toLowerCase().replace(re, '');
-    var len = str.length;
-    
-    for (var i = 0; i < len/2; i++) {
-        if (str[i] !== str[len - 1 - i]) {
-            return false;
-        }
-    }
-    return true;
-}
-palindrome("A man, a plan, a canal. Panama");
-
-/* Kaija Version */
 
 function isPalindrome(str) {
+    //Empty var temp to hold str after looped through
     var temp = "";
+    //Set index to 0
     var index = 0;
+    //For loop: Iterate through string
     for (var i = 0; i < str.length; i++){
+        //Index = string length - 1 - i(for loop index)
         index = (str.length - 1) - i;
+        //Add to var temp element (each letter) of string as it passes through for loop
         temp += str[index];
     }
+    //If temp = string
     if (temp == str){
+        //Print str is a palidrome
         console.log(str + " Is a Palidrome!");
     }else{
+        //Print str is a not palidrome
         console.log(str + " Is NOT a Palidrome!");
     }
 }

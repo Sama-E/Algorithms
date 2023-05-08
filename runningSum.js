@@ -21,4 +21,4 @@ function runningSum(nums) {
 };
 
 
-runningSum(nums1);
+console.log(runningSum(nums));

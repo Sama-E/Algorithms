@@ -22,3 +22,4 @@ function runningSum(nums) {
 
 
 console.log(runningSum(nums));
+console.log(runningSum(nums1));

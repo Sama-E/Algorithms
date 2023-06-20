@@ -73,6 +73,7 @@ targetSum3 = 0;
 function twoNumberSum(array, targetSum) {
   //Help Sort Function(compare a,b)
   var array = array.sort(function(a, b){return a - b});
+  console.log(array);
   var left = 0;
   var right = array.length - 1;
 

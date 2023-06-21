@@ -1,0 +1,38 @@
+Data stored in memory is stored in bytes/bits
+
+Bytes in memory can point to other bytes in memory
+ as reference to othe data.
+
+Endianess - describes the order in which a sequence of bytes is
+ stored in computer memory. Endianness can be either big or
+  small, with the adjectives referring to which value is stored first.
+
+Limited memory makes algorithm efficiency essential.
+
+Accessing a byte/bytes is an elementary operation which is
+ defined as a single unit of operational work.
+
+Bit(binary digit): a bit is a fundamental unit of informatio in
+ CS that represents a state with one of two values, 
+ typically 0 and 1.
+
+Byte(8 Bits): (ex. 01101000) a single byte can represent up to 
+ 256 data values 2 to power of 8(2^8 = Binary Number).
+ ex. following bytes represent the number 1,2,3,4 in binary format
+ 1: 0000 0001
+ 2: 0000 0010
+ 3: 0000 0011
+ 4: 0000 0100
+ 5: 0000 0101
+ 6: 0000 0110
+ 7: 0000 0111
+ 8: 0000 1000
+ 9: 0000 1001
+ 10: 0000 1010
+
+Fixed-Width Integer: represents a fix number of bits.
+ Ex. 
+ 32-bit integer(4bytes) 1: 0000 0000 0000 0000 0000 0000 0000 0001
+ 64-bit integer (8 bytes)
+
+

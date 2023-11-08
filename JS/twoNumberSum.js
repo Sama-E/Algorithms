@@ -1,3 +1,11 @@
+// Two Number Sum 
+
+// Write a function that takes in a non-empty array of distinct integers and an integer representing a target sum. If an two numbers in the input array sum up to the target sum, the function should return them in an array, in any order. If no two numbers sum up to the target sum, the function should return an aempty array.
+
+//Note that the target sum has to be obtained by summing two different integers in the array; you can't add a single integer to itself in order to obtain the target.
+
+//You can assum that there will be at most one pair of numbers summing up the target sum.
+
 array = [3, 5, -4, 8, 11, 1, -1, 6];
 targetSum = 10;
 
@@ -90,6 +98,6 @@ function twoNumberSum(array, targetSum) {
   return [];
 }
 
-console.log(twoNumberSum(array, targetSum));
+// console.log(twoNumberSum(array, targetSum));
 console.log(twoNumberSum(array2, targetSum2));
-console.log(twoNumberSum(array3, targetSum3));
+// console.log(twoNumberSum(array3, targetSum3));

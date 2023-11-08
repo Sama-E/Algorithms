@@ -18,4 +18,4 @@ def NonConstructibleChange(coins):
 
   return currentChangeCreated + 1
 
-NonConstructibleChange(coins)
+print(NonConstructibleChange(coins)) 

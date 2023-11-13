@@ -22,6 +22,9 @@ targetSum4 = 15
 #         return [firstNum, secondNum]
 #   return []
 
+
+
+# Pointers
 def twoNumberSum(array, targetSum):
     # Sort Array
     array.sort()

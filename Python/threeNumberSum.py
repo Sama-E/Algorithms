@@ -17,6 +17,8 @@ output = [
     [-6, 1, 5]
 ]
 
+
+# Pointers
 # 1. Sort array
 # 2. Initialize newArray
 # 3. Loop through index of array(length of array - 2 indices)

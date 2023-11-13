@@ -82,7 +82,7 @@ def tournamentWinner(competitions, results):
     winner = ""
     keepScores = {winner: 0}
 
-    # The enumerate () method adds a counter to an iterable and returns it in the 
+    # The enumerate() method adds a counter to an iterable and returns it in the 
     # form of an enumerating object. This enumerated object can then be used 
     # directly for loops or converted into a list of tuples using the list() function.
     # Traverse i(index), competition in counted competitions

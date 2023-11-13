@@ -38,6 +38,7 @@ output1 = []
 
 # O(n) - Iterate through array once -
 # sorting inside for loop
+# Pointers
 def sortedSquaredArray(array):
     # Initialize newArray
     newArray = [0 for _ in array]

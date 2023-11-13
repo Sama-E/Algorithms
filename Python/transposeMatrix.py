@@ -39,6 +39,8 @@ output2 = [
 	[3,6,9]
 ]
 
+
+# Swapping
 # 1. Initialize new output matrix
 # 2. Loop through the length of matrix starting with the first row
 # 3. Initialize new row of new output matrix

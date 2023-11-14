@@ -75,3 +75,36 @@ def transposeMatrix(matrix):
 print(transposeMatrix(matrix))
 print(transposeMatrix(matrix1))
 print(transposeMatrix(matrix2))
+
+def transposeMatrix1(matrix):
+	return [[row[i] for row in matrix] for i in range(3)]
+
+
+# print(transposeMatrix1(matrix))) - failed
+# print(transposeMatrix1(matrix1))) - failed
+print(transposeMatrix1(matrix2))
+
+def transposeMatrix2(matrix):
+	transposed = []
+	for i in range(3):
+		transposed.append([row[i] for row in matrix])
+	return transposed
+
+
+print(transposeMatrix2(matrix2))
+
+
+def transposeMatrix3(matrix):
+	transposed = []
+	for i in range(len(matrix)):
+		# the following 3 lines implement the nested listcomp
+		transposed_row = []
+		for row in matrix:
+			transposed_row.append(row[i])
+		transposed.append(transposed_row)
+
+	return transposed
+
+# print(transposeMatrix3(matrix))) - failed
+# print(transposeMatrix3(matrix1)) - failed
+print(transposeMatrix3(matrix2))

@@ -68,6 +68,22 @@ class LinkedList:
           return
         current_index += 1
 
+    
+    def arrayToLL(self, array):
+      LL = []
+      n = len(array)
+      for i in range(0, n, 1):
+        LL.append(array[i])
+      print(LL)
+      return LL
+
+
+
+    # Runners method of index:use 2 pointers simultaneously 
+    # to iterate through the linked list instead of just 1
+    def runner(self):
+      return None
+
 
 
 
@@ -80,7 +96,11 @@ my_list.append(4)
 my_list.append(5)
 
 my_list.display()
-# my_list.length()
+my_list.length()
 my_list.extract(2)
-my_list.delete(2)
-my_list.display()
+# my_list.delete(2)
+# my_list.display()
+
+# array = [1,2,3,4,5,5,6,6]
+# my_list.arrayToLL(array)
+# my_list.display()

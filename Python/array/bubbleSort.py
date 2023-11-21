@@ -17,7 +17,7 @@ output3 = [-10, -4, -1, 3, 5, 6, 7, 10]
 # Search for smallest element between 2 indices,
 # then swap indices move through array. Check if array is sorted.
 
-# 1. Initialized isSorted = False (check if array is sorted)
+# 1. Set isSorted = False (check if array is sorted)
 # 2. While array isSorted is False
 # 3. isSorted is true if pair of indexed elements are sorted
 # 4. Iterate through index of array 

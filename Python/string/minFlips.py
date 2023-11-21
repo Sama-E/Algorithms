@@ -31,21 +31,19 @@ output1 = 3
 # of minimum flips required
 # O(n) Time | O(1) Space | n = index in for loop 
 def minFlips(target):
- 
-    curr = '1'
-    count = 0
-     
-    for i in range(len(target)):
-         
-        # If curr occurs in the final string
-        if (target[i] == curr):
-            count += 1
-             
-            # Switch curr to '0' if '1'
-            # or vice-versa
-            curr = chr(48 + (ord(curr) + 1) % 2)
-     
-    return count
+	curr = '1'
+	count = 0
+	
+	for i in range(len(target)):
+		# If curr occurs in the final string
+		if (target[i] == curr):
+			count += 1
+			
+			# Switch curr to '0' if '1'
+			# or vice-versa
+			curr = chr(48 + (ord(curr) + 1) % 2)
+
+		return count
 
 print(minFlips(target))
 print(minFlips(target1))

@@ -21,7 +21,7 @@ def possibleChanges(usernames):
         print("YES")
       else:
         print("NO")
-        break
+    break
 
 
 print(possibleChanges(usernames))

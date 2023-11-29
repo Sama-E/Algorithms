@@ -40,6 +40,24 @@ def isPalindrome(string):
 
 
     
+
+
+
+def isPalindrome1(string):
+  leftIdx = 0
+  rightIdx = len(string) - 1
+  while leftIdx < rightIdx:
+    if string[leftIdx] != string[rightIdx]:
+      return False
+    leftIdx += 1
+    rightIdx -= 1
+  
+  return True
+
 print(isPalindrome(string))
 print(isPalindrome(string1))
 print(isPalindrome(string2))
+
+print(isPalindrome1(string))
+print(isPalindrome1(string1))
+print(isPalindrome1(string2))

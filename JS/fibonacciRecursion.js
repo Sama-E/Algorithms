@@ -31,7 +31,7 @@ const twoExpected6 = 21;
  * @param {number} num The position of the desired number in the fibonacci sequence.
  * @returns {number} The fibonacci number at the given position.
  */
- function fibonacci(num) {
+function fibonacci(num) {
     if (num == 0){
         return 0;
     // change num each iteration - 1
